@@ -4,7 +4,7 @@
   <groupId>com.maaven.practice</groupId>
   <artifactId>myapp</artifactId>
   <packaging>jar</packaging>
-  <version>1.1-SNAPSHOT</version>
+  <version>1.0-SNAPSHOT</version>
   
   <dependencies>
     <dependency>
@@ -16,13 +16,13 @@
   </dependencies>
   <distributionManagement>
 
-		<repository>
-			<id>TestRepo</id>
-			<url>http://localhost:8081/nexus/content/repositories/TestRepo/</url>
-		</repository>
+		 <repository>
+    <id>TestRepo</id>
+    <url>http://localhost:8081/nexus/content/repositories/TestRepo</url>
+  </repository>
 		<snapshotRepository>
-			<id>TESTREPO1</id>
-			<url>http://localhost:8081/nexus/content/repositories/TESTREPO1/</url>
-		</snapshotRepository>		
+    <id>TESTREPO1</id>
+    <url>http://localhost:8081/nexus/content/repositories/TESTREPO1</url>
+  </snapshotRepository>		
   </distributionManagement>
 </project>
